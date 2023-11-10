@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<h2>form양식의 여러 형태 데이터 보내기</h2>
+	<form action="info" method="post">
+		<br>
+		<h2>직업</h2>
+		<select name="job">
+			<option value="직장인">직장인</option>
+			<option value="학생">학생</option>
+			<option value="취준생">취준생</option>	
+		</select>		
+		
+		<br><br>
+		
+		<h2>성별</h2>
+			남자<input type="radio" value="남자" name="gender">
+			여자<input type="radio" value="여자" name="gender">	
+		
+		<br><br>
+		
+		<h2>취미</h2>
+			그림<input type="checkbox" value="그림" name="hobby">
+			독서<input type="checkbox" value="독서" name="hobby">	
+			운동<input type="checkbox" value="운동" name="hobby">	
+	
+		
+		<br><br>
+		<input type="submit" value="send">		
+	</form>
+</body>
+</html>
